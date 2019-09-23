@@ -33,4 +33,87 @@
             posted here!<br>
             </font></p></center>
     
+    <script>
+        var x = 200;
+var y = 200;
+
+noStroke();
+fill(210, 153, 133);
+ellipse(x, y, 70, 90); //head
+
+fill(10, 1, 1);
+ellipse(x, y-35, 70, 60); //hat
+
+fill(210, 153, 133);
+ellipse(x, y-14, 40, 60); //head in hat
+fill(10, 1, 1);
+rect(x-24, y-36, 45, 8); //hat strap
+fill(210, 153, 133);
+rect(x-35, y-33, 70, 30); //shape to help make hat
+
+
+
+fill(255, 255, 255);
+ellipse(x-15, y-10, 20, 15); //left eye
+ellipse(x+15, y-10, 20, 15); //right eye
+
+fill(179, 118, 43);
+ellipse(x-15, y-10, 10, 10); //left brown
+ellipse(x+15, y-10, 10, 10); //right brown
+
+
+stroke(0, 0, 0);
+
+strokeWeight(5);
+point(x+15, y-10); //right pupil
+point(x-15, y-10); //left pupil
+
+
+stroke(227, 93, 106);
+strokeWeight(4);
+arc(x, y+22, 29, 4, -221, 157); //mouth
+
+noStroke();
+fill(10, 1, 1);
+arc(x+30, y-33, 46, 20, -107, 10); //hat brim
+
+fill(210, 153, 133);
+arc(x+30, y-15, 30, 30, -88, 91); //right ear
+arc(x-30, y-15, 30, 30, 80, 287); //left ear
+
+strokeWeight(1);
+noFill();
+stroke(0, 0, 0);
+arc(x, y+34, 10, 10, 23, 161); //chin
+
+bezier(x, y, x, y+5, x-20, y, x-5, y+15); //nose
+
+
+line(x+-15, y+22, x+15, y+22); //mouth line
+
+arc(x+25, y-15, 30, 30, -28, 30); //right ear line
+arc(x-25, y-15, 30, 30, 152, 210); //left ear line
+
+strokeWeight(2);
+arc(x-15, y-18, 30, 9, -187, -73); //left eyebrow
+arc(x+15, y-18, 30, 9, -111, 1); //right eyebrow
+
+noStroke();
+fill(255, 255, 255);
+ellipse(x-42, y+31, 32, 65); //chin
+ellipse(x+42, y+31, 32, 65); //chin
+ellipse(x+34, y+50, 32, 65); //chin
+ellipse(x-33, y+50, 32, 65); //chin
+ellipse(x+32, y+50, 32, 65); //chin
+ellipse(x+39, y+37, 32, 65); //chin
+
+stroke(0, 0, 0);
+noFill();
+ellipse(x-15, y-10, 25, -18); //glasses
+ellipse(x+15, y-10, 25, -18); //glasses
+line(x+1, y-10, x-2, y-10); //glasses
+line(172, 190, 161, 173); //glasses
+line(238, 173, 228, 190); //glasses
+    </script>
+    
 </html>
