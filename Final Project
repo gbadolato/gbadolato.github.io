@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gabe's Portfolio</title>
+    </head>
+    <body>
+
+        <center><h1>My Apps!</h1></center>
+        <img src="gbadolato.github.io/me but better.jpg" class="center" id="banner">
+    <table border="4" align="center">
+        <thead>
+            <tr>
+                <th><a href="https://gbadolato.github.io"><img src="gbadolato.github.io/home.jpg"></a></th>
+                <th><a href="https://gbadolato.github.io/javascripts.html"><img src="gbadolato.github.io/JAVASCRIPSAVDFKLS.jpg"></a></th>
+                <th><a href="https://gbadolato.github.io/apps.html"><img src="gbadolato.github.io/apps.jpg"></a></th>
+                <th><a href =""><imh src = "
+                <th><a href="https://gbadolato.github.io/about.html"><img src="gbadolato.github.io/ABOUT WHO.jpg"></a></th>
+        </thead>
+            </table>
+         <style> body {background-color: rgb(97, 250, 255);}
+             
+             p {color: red;}
+        
+        #banner {display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;}
+            
+             
+        </style>
+    </body>
+        <center><p><font size="17"> This page is where I will be <br>
+            posting the apps that I create.<br>
+            Currently I do not have any apps,<br>
+            but they will be posted here once I do!
+            
+            </font></p></center>
+    
+</html>
